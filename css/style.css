@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  font-size: 19px;
+}
+
+.icon-nav {
+  font-size: 19px;
+  position: relative;
+  color: #ffffff8c;
+}
+.icon-nav:hover {
+  color: white;
+}
+
+section {
+  min-height: 80vh;
+}
+
+/* Login Page  */
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0 10px 0 10px;
+}
+.input-login {
+  height: 45px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  margin-bottom: 20px;
+  color: #40414a;
+}
+.input-box {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.input-field label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.input-field .input-login:focus ~ label {
+  top: -10px;
+  font-size: 14px;
+}
+.input-field .input-login:valid ~ label {
+  top: -10px;
+  font-size: 14px;
+  color: #5d5076;
+}
+.input-field .input-login:focus,
+.input-field .input-login:valid {
+  border-bottom: 1px solid #743ae1;
+}
+
+.navbar {
+  font-size: 19px;
+}
+.circle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgba(249, 32, 32, 0.86);
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  top: 10px;
+  right: 130px;
+}
+.icon-nav {
+  font-size: 19px;
+  position: relative;
+  color: black;
+}
+.icon-nav:hover {
+  color: white;
+}
+
+section {
+  min-height: 80vh;
+}
+
+/* style footer */
+footer {
+  position: static;
+  background: white;
+  color: black;
+  font-size: 15px;
+}
+/* .copyright{
+    background: #025464;
+    color: white;
+} */
+.social-icon i {
+  color: #6c757d;
+  margin-top: 2px;
+  font-size: 18px;
+  margin-right: 10px;
+  transition: all 0.42s;
+}
+.social-icon i:hover {
+  transform: scale(1.1);
+}
+
+/* Login Page  */
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0 10px 0 10px;
+}
+.input-login {
+  height: 45px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  margin-bottom: 20px;
+  color: #40414a;
+}
+.input-box {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.input-field label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.input-field .input-login:focus ~ label {
+  top: -10px;
+  font-size: 14px;
+}
+.input-field .input-login:valid ~ label {
+  top: -10px;
+  font-size: 14px;
+  color: #5d5076;
+}
+.input-field .input-login:focus,
+.input-field .input-login:valid {
+  border-bottom: 1px solid #743ae1;
+}
